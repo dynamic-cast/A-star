@@ -1,1 +1,1 @@
-# A-star
+# A* - Informed Graph Search
