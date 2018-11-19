@@ -80,5 +80,5 @@ int main (int argc, char* argv[])
   }; // Heuristic straight-line distance to Bucharest
 
   Graphs::Graph g(std::move(edges));
-  g.shortestPath('a', 'b', costs);
+  g.greedy('a', 'b', costs);
 }
